@@ -7,7 +7,7 @@ publish = false
 
 [dependencies]
 anyhow = "1.0.22"
-bytes = "1.7"
+bytes = "1.11"
 hdrhistogram = { version = "7.2", default-features = false }
 iroh = { path = ".." }
 iroh-metrics = "0.29"
@@ -17,7 +17,7 @@ rustls = { version = "0.23", default-features = false, features = ["ring"] }
 clap = { version = "4", features = ["derive"] }
 tokio = { version = "1", features = ["rt", "sync"] }
 tracing = "0.1"
-tracing-subscriber = { version = "0.3.0", default-features = false, features = [
+tracing-subscriber = { version = "0.3.20", default-features = false, features = [
     "env-filter",
     "fmt",
     "ansi",
