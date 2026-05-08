@@ -17,7 +17,7 @@ workspace = true
 
 [dependencies]
 anyhow = "1"
-bytes = "1.7"
+bytes = "1.11"
 derive_more = { version = "1.0.0", features = ["display"] }
 futures-buffered = "0.2.8"
 futures-lite = "2.3"
